@@ -4,7 +4,7 @@ let somaDasNotas = 0;
 
 //com arrow function
 // notas.forEach(nota => {
-//     somaDasNotas += nota
+//     soma DasNotas += nota
 // })
 
 //sem arrow function
