@@ -105,3 +105,8 @@ const personagem = {
    const personagemGenerico = personagem.apresentar
    console.log(personagemGenerico())
    //a personagem é undefined
+
+   for (let i = 0; i < palavrasSimples.length; i++) {
+     const element = palavrasSimples[i];
+     
+   }

@@ -30,3 +30,7 @@ if (typeof paciente[info] === "object" || typeof paciente[info] === "function") 
 for (let info in paciente) {
   console.log(info)
  };
+
+
+
+ 
