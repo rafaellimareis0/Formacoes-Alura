@@ -12,7 +12,7 @@ const personagem = {
     }]
 }
 
-console.log(personagem)
+console.table(personagem)
 
 const vilao = personagem.sextetoSinistro.filter(sextetoSinistro => sextetoSinistro.vilaoQuatro === 'Doutor Octopus')
 
