@@ -8,4 +8,4 @@ console.log("7" / "2");
 console.log("Rafael" / "2"); //Not a Number
 
 console.log(6.5);
-console.log(6,5);
+console.log(6, 5);
