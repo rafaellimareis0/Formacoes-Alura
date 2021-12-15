@@ -28,9 +28,3 @@ if (podeComprar && destinoExiste){
 } else [
     console.log(`Desculpe temos um erro!`)
 ]
-
-for (let i = 0; i <= 8; i++) {
-    if (cidades[i]) == destino {
-        destinoExiste = true;
-    }
-}

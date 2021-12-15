@@ -1,41 +1,51 @@
-console.log(`\nTrabalhando com condicionais`);
-const listaDeDestinos = new Array(
-    `Salvador`,
-    `São Paulo`,
-    `Rio de Janeiro`
-);
+//Trabalhando com FOR
 
-const idadeComprador = 18;
-const estaAcompanhada = false;
-let temPassagemComprada = false;
-const destino = "Curitiba";
+// for (let i = 1; i <= 5; i++) {
+//     console.log('Estou aprendendo')
+// }
 
-console.log("\n Destinos possíveis:");
-console.log(listaDeDestinos);
+// for (let ii = 0; ii <= 15; ii++) {
+//     if (ii % 2 !== 0){
+//         console.log(ii)
+//     }
+// }
 
-const podeComprar  = idadeComprador >= 18 || estaAcompanhada == true;
 
-let contador = 0;
-let destinoExiste = false;
-while(contador<3){
-    if(listaDeDestinos[contador] == destino){
+console.log(`\n Trabalhando com loops \n`)
+
+const cidades = new Array('Salvador', 'São Paulo', 'Rio de Janeiro', 'Porto Alegre', 'Curitiba', 'Belo Horizonte', 'Florianópolis', 'Belo Horizonte')
+console.log(`Escolha um destino:`)
+console.log(cidades)
+
+const idadeComprador = 20;
+const acompanhado = false;
+let passagem = false;
+const destino = 'São Paulo';
+//variavel criada   //puxa a idade          //outra condição
+const podeComprar = idadeComprador >= 18 || acompanhado == true; //condições para entrar no contador
+let contador = 0; //sempre inicia em 0
+let destinoExiste = false; //mais uma condição
+
+for (i = 0; i < 8; i++) {
+    if (cidades[i] == destino) {
         destinoExiste = true;
+        console.log(`Destino escolhido: ${destino}`)
         break;
     }
-    contador += 1;
 }
 
-console.log("Destino exite: ", destinoExiste);
+// while (contador < 8) { //contador até o numero de cidades
+//     if (cidades[contador] == destino) { //SE array[vai contando] for igual == ao destino digitado
+//         destinoExiste = true; //ai é verdadeiro
+//         break;
+//     }
+//     contador += 1; //aqui vai contando até o if for verdadeiro
+// }
 
-if(podeComprar && destinoExiste){
-    console.log("Boa Viagem");
-}else{
-    console.log("Desculpe tivemos um erro!");
-}
+console.log("Destino existe?", destinoExiste)
 
-for(let i  = 0 ; i < 3 ; i++){
-    if(listaDeDestinos[i] == destino){
-        destinoExiste = true;
-    }
-   
+if (podeComprar && destinoExiste) {
+    console.log(`Boa viagem`)
+} else {
+    console.log(`Desculpe temos um erro!`)
 }
