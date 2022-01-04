@@ -22,8 +22,8 @@ const acompanhado = false;
 let passagem = false;
 const destino = 'São Paulo';
 //variavel criada   //puxa a idade          //outra condição
-const podeComprar = idadeComprador >= 18 || acompanhado == true; //condições para entrar no contador
-let contador = 0; //sempre inicia em 0
+const podeComprar = idadeComprador >= 18 || acompanhado == true; //condições para entrar no i
+let i = 0; //sempre inicia em 0
 let destinoExiste = false; //mais uma condição
 
 for (i = 0; i < 8; i++) {
@@ -34,12 +34,12 @@ for (i = 0; i < 8; i++) {
     }
 }
 
-// while (contador < 8) { //contador até o numero de cidades
-//     if (cidades[contador] == destino) { //SE array[vai contando] for igual == ao destino digitado
+// while (i < 8) { //i até o numero de cidades
+//     if (cidades[i] == destino) { //SE array[vai contando] for igual == ao destino digitado
 //         destinoExiste = true; //ai é verdadeiro
 //         break;
 //     }
-//     contador += 1; //aqui vai contando até o if for verdadeiro
+//     i += 1; //aqui vai contando até o if for verdadeiro
 // }
 
 console.log("Destino existe?", destinoExiste)
