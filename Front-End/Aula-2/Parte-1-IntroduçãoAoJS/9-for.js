@@ -42,6 +42,8 @@ for (i = 0; i < 8; i++) {
 //     i += 1; //aqui vai contando até o if for verdadeiro
 // }
 
+//teste do git/github
+
 console.log("Destino existe?", destinoExiste)
 
 if (podeComprar && destinoExiste) {
