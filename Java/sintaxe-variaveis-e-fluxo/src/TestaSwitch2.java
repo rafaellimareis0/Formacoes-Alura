@@ -1,12 +1,12 @@
 
-public class TestaIR2 {
+public class TestaSwitch2 {
 	public static void main(String[] args) {
 		System.out.println("Testando no laptop");
 		
 		int mes = 1; //declarando a variavel
-		mes = mes + 1; //alterando valor da variavel
+		mes = mes + mes * 2; //alterando valor da variavel 'mes'
 		
-		switch (mes) { //laÁo de condiÁ„o
+		switch (mes) { //la√ßo de condi√ß√£o
 		case 1:
 			System.out.println("Primeiro semestre");
 			break;
@@ -14,7 +14,7 @@ public class TestaIR2 {
 			System.out.println("Segundo semestre");
 			break;
 		default:
-			System.out.println("N„o È um semestre v·lido");
+			System.out.println("N√£o √© um semestre v√°lido");
 			break;
 		}
 	}
