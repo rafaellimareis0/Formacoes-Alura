@@ -5,7 +5,7 @@ public class TestaPontoFlutuante {
 
 		double salario; // variavel tipo double serve para valores com casas decimais
 		salario = 1250.70;
-		System.out.println("O meu salário é de R$" + salario);
+		System.out.println("O meu salário hoje é de R$" + salario);
 
 		double divisao = 3.14 / 2;
 		System.out.println("Resultado da divisao de PI: " + divisao);
