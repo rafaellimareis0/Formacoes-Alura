@@ -1,3 +1,6 @@
+/* os atributos são as características que especificam uma classe.
+ Na criação de uma instância não precisamos preencher os atributos se não quisermos.
+  */
 
 public class CriaConta {
 	public static void main(String[] args) {
