@@ -1,14 +1,13 @@
-2022-01-20 11:17:39.995 - Create display
-> Start Eclipse IDE UI [org.eclipse.ui.ide 3.18.300.v20210817-1731]
-2022-01-20 11:17:40.199 - DBeaver 21.3.2.202112271055 is starting
-2022-01-20 11:17:40.200 - OS: Linux 5.13.0-27-generic (amd64)
-2022-01-20 11:17:40.200 - Java version: 11.0.12 by Eclipse Foundation (64bit)
-2022-01-20 11:17:40.200 - Install path: '/usr/share/dbeaver-ce'
-2022-01-20 11:17:40.200 - Instance path: 'file:/home/rafael/Documentos/Alura/Formacoes-Alura/SQL Server/'
-2022-01-20 11:17:40.201 - Memory available 64Mb/1024Mb
+2022-01-20 11:47:47.958 - Create display
+2022-01-20 11:47:48.162 - DBeaver 21.3.2.202112271055 is starting
+2022-01-20 11:47:48.164 - OS: Linux 5.13.0-27-generic (amd64)
+2022-01-20 11:47:48.164 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2022-01-20 11:47:48.165 - Install path: '/usr/share/dbeaver-ce'
+2022-01-20 11:47:48.165 - Instance path: 'file:/home/rafael/Documentos/Alura/Formacoes-Alura/SQL Server/'
+2022-01-20 11:47:48.166 - Memory available 64Mb/1024Mb
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.72.202112271055]
-2022-01-20 11:17:40.214 - Starting RMI server at 47195
-2022-01-20 11:17:40.268 - Run workbench
+2022-01-20 11:47:48.201 - Starting RMI server at 63196
+2022-01-20 11:47:48.268 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.200.v20210723-1326]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.0.v20210723-1034]
 > Start Serviços de Aplicativo da UI do Eclipse [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
@@ -20,149 +19,106 @@
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.0.v20210625-1052]
 > Start Suporte ao CSS SWT do Eclipse [org.eclipse.e4.ui.css.swt 0.14.300.v20210723-0837]
 > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.87.202112271055]
+2022-01-20 11:47:51.036 - Configure workbench window
+> Start Core do Sistema de Ajuda [org.eclipse.help 3.9.100.v20210721-0601]
+2022-01-20 11:47:51.171 - Create actions
+2022-01-20 11:47:51.181 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-01-20 11:47:51.183 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-01-20 11:47:51.183 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-01-20 11:47:51.897 - Initialize workbench window
+2022-01-20 11:47:51.906 - Finish initialization
 > Start Autenticação Java Equinox e Serviço de Autorização - Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.700.v20210726-0943]
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.4.0.v20210426-0838]
 > Start Gerenciamento da Conexão da Internet [org.eclipse.core.net 1.3.1100.v20210424-0724]
-2022-01-20 11:17:42.211 - Configure workbench window
-> Start Core do Sistema de Ajuda [org.eclipse.help 3.9.100.v20210721-0601]
-2022-01-20 11:17:42.344 - Create actions
-2022-01-20 11:17:42.358 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2022-01-20 11:17:42.358 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2022-01-20 11:17:42.358 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2022-01-20 11:17:43.377 - Initialize workbench window
-2022-01-20 11:17:43.380 - Finish initialization
 > Start DBeaver SQL Model  [org.jkiss.dbeaver.model.sql 1.0.62.202112271055]
-2022-01-20 11:17:43.866 - No SQL dialect specified for data source provider 'oceanbase'. Use default.
-2022-01-20 11:17:43.877 - Total database drivers: 93 (93)
+2022-01-20 11:47:53.218 - No SQL dialect specified for data source provider 'oceanbase'. Use default.
+2022-01-20 11:47:53.226 - Loading user drivers configuration from '/home/rafael/Documentos/Alura/Formacoes-Alura/SQL Server/.metadata/.plugins/org.jkiss.dbeaver.core/drivers.xml'
+2022-01-20 11:47:53.239 - Total database drivers: 93 (93)
 > Start DBeaver UI Editor de dados [org.jkiss.dbeaver.ui.editors.data 1.0.72.202112271055]
 > Start Editor de Texto Padrão [org.eclipse.ui.editors 3.14.200.v20210622-1002]
 > Start Workbench [org.eclipse.ui.workbench.texteditor 3.16.200.v20210724-2153]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.72.202112271055]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.109.202112271055]
+> Start DBeaver Tipo do dia  [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.78.202112271055]
 > Start Draw2d [org.eclipse.draw2dl 3.12.100.20211006155649]
 > Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20211006155649]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.32.202112271055]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.32.202112271055]
-> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.109.202112271055]
-> Start DBeaver Tipo do dia  [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.78.202112271055]
-2022-01-20 11:17:45.146 - Open [https://dbeaver.io/product/version.xml]
-> Start DBeaver UI Editores - Conexões [org.jkiss.dbeaver.ui.editors.connection 1.0.63.202112271055]
-> Start DBeaver SQL Server UI Support [org.jkiss.dbeaver.ext.mssql.ui 1.0.71.202112271055]
+2022-01-20 11:48:30.192 - Connect with 'master' (microsoft-17e77d9dfd6-4d47660148cbe52b)
 > Start DBeaver SQL Server Support [org.jkiss.dbeaver.ext.mssql 1.0.166.202112271055]
-2022-01-20 11:17:54.426 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-> Start DBeaver SSH tunnels UI [org.jkiss.dbeaver.net.ssh.ui 1.0.93.202112271055]
-> Start DBeaver SSH tunels [org.jkiss.dbeaver.net.ssh 1.0.93.202112271055]
-2022-01-20 11:17:57.141 - Connect with 'jdbc:sqlserver://;serverName=localhost;databaseName=master' (microsoft-17e77d9ea85-60bcd1e31bec3c42)
-2022-01-20 11:17:57.183 - Execution context opened (jdbc:sqlserver://;serverName=localhost;databaseName=master; Main; 0)
-2022-01-20 11:17:57.459 - Open [https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.2.0.jre8/mssql-jdbc-9.2.0.jre8.pom]
-2022-01-20 11:17:59.887 - Open [https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.2.0.jre8/mssql-jdbc-9.2.0.jre8.jar]
-2022-01-20 11:18:01.171 - Connection failed (microsoft-17e77d9ea85-60bcd1e31bec3c42)
-org.jkiss.dbeaver.model.exec.DBCConnectException: Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:233)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:103)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:100)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:59)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:111)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:99)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:91)
-	at org.jkiss.dbeaver.ext.mssql.model.SQLServerDataSource.<init>(SQLServerDataSource.java:73)
-	at org.jkiss.dbeaver.ext.mssql.SQLServerDataSourceProvider.openDataSource(SQLServerDataSourceProvider.java:129)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:898)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:70)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+2022-01-20 11:48:30.254 - Execution context opened (master; Main; 0)
+2022-01-20 11:48:30.723 - Execution context opened (master; Metadata; 1)
+2022-01-20 11:48:31.388 - Connected (microsoft-17e77d9dfd6-4d47660148cbe52b, Microsoft JDBC Driver 9.2 for SQL Server [9.2.0.0])
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.158.202112271055]
+> Start Procurar Suporte [org.eclipse.search 3.13.300.v20210806-1124]
+> Start DBeaver UI Editores - Conexões [org.jkiss.dbeaver.ui.editors.connection 1.0.63.202112271055]
+> Start DBeaver Dashboard Interface [org.jkiss.dbeaver.ui.dashboard 1.0.69.202112271055]
+> Start DBeaver Charts UI [org.jkiss.dbeaver.ui.charts 1.0.69.202112271055]
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.21.202112271055]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.50.202112271055]
+> Start Core de Suporte para Equipe [org.eclipse.team.core 3.9.100.v20210604-1207]
+> Start Núcleo de Suporte a Comparação [org.eclipse.compare.core 3.6.1000.v20201020-1107]
+> Start Console [org.eclipse.ui.console 3.11.100.v20210721-1355]
+> Start Depurar Core [org.eclipse.debug.core 3.18.200.v20210721-1355]
+2022-01-20 11:54:56.760 - Execution context opened (master; SQLEditor <Script.sql>; 2)
+2022-01-20 11:57:35.284 - SQL Error [2809] [S0001]: Houve falha na solicitação de procedimento 'spt_fallback_db' porque 'spt_fallback_db' é um objeto tabela.
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2809] [S0001]: Houve falha na solicitação de procedimento 'spt_fallback_db' porque 'spt_fallback_db' é um objeto tabela.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:513)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:444)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:171)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:431)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:816)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3477)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:118)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:171)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:116)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:4810)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Houve falha na solicitação de procedimento 'spt_fallback_db' porque 'spt_fallback_db' é um objeto tabela.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
-	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:283)
-	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:129)
-	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:37)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:5332)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:4068)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:85)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:4006)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:872)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:767)
 	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
 	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3274)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2768)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2418)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2265)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1291)
-	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:881)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:184)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:203)
-	... 13 more
-2022-01-20 11:18:01.176 - org.jkiss.dbeaver.model.exec.DBCConnectException: Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
-org.jkiss.dbeaver.model.exec.DBCConnectException: Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:233)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:103)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:100)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:59)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:111)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:99)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:91)
-	at org.jkiss.dbeaver.ext.mssql.model.SQLServerDataSource.<init>(SQLServerDataSource.java:73)
-	at org.jkiss.dbeaver.ext.mssql.SQLServerDataSourceProvider.openDataSource(SQLServerDataSourceProvider.java:129)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:898)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:70)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.execute(SQLServerStatement.java:743)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	... 12 more
+2022-01-20 11:57:41.519 - SQL Error [208] [S0002]: Nome de objeto 'dbo.master.dbo.spt_fallback_db' inválido.
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [208] [S0002]: Nome de objeto 'dbo.master.dbo.spt_fallback_db' inválido.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:513)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:444)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:171)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:431)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:816)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3477)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:118)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:171)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:116)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:4810)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Nome de objeto 'dbo.master.dbo.spt_fallback_db' inválido.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
-	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:283)
-	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:129)
-	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:37)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:5332)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:4068)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:85)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:4006)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:872)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:767)
 	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
 	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3274)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2768)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2418)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2265)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1291)
-	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:881)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:184)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:203)
-	... 13 more
-2022-01-20 11:18:01.224 - Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
-com.microsoft.sqlserver.jdbc.SQLServerException: Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
-	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
-	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:283)
-	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:129)
-	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:37)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:5332)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:4068)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:85)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:4006)
-	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3274)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2768)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2418)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2265)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1291)
-	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:881)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:184)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:203)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:103)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:100)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:59)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:111)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:99)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:91)
-	at org.jkiss.dbeaver.ext.mssql.model.SQLServerDataSource.<init>(SQLServerDataSource.java:73)
-	at org.jkiss.dbeaver.ext.mssql.SQLServerDataSourceProvider.openDataSource(SQLServerDataSourceProvider.java:129)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:898)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:70)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2022-01-20 11:18:10.086 - Connect with 'jdbc:sqlserver://;serverName=localhost;databaseName=master' (microsoft-17e77da1d1c-2a8154903c9946e8)
-2022-01-20 11:18:10.087 - Execution context opened (jdbc:sqlserver://;serverName=localhost;databaseName=master; Main; 1)
-2022-01-20 11:18:10.325 - Connected (microsoft-17e77da1d1c-2a8154903c9946e8, Microsoft JDBC Driver 9.2 for SQL Server [9.2.0.0])
-2022-01-20 11:18:10.382 - Execution context closed (jdbc:sqlserver://;serverName=localhost;databaseName=master, 1)
-2022-01-20 11:18:10.383 - Disconnected (microsoft-17e77da1d1c-2a8154903c9946e8)
-2022-01-20 11:19:04.668 - DBeaver is stopping
-2022-01-20 11:19:04.669 - Stop RMI server
-2022-01-20 11:19:04.670 - RMI controller has been stopped
-2022-01-20 11:19:04.701 - DBeaver shutdown completed
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.execute(SQLServerStatement.java:743)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	... 12 more
+2022-01-20 11:58:15.202 - Execution context closed (master, 2)
+2022-01-20 11:58:15.584 - DBeaver is stopping
+2022-01-20 11:58:15.585 - Stop RMI server
+2022-01-20 11:58:15.587 - RMI controller has been stopped
+2022-01-20 11:58:15.623 - DBeaver shutdown completed
