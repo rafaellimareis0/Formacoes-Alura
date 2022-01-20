@@ -9,6 +9,7 @@ public class TestaValores {
 		
 		Conta conta2 = new Conta (20, 122);
 		Conta conta3 = new Conta (20, 457);
+		Conta conta4 = new Conta (20, 145);
 		
 		System.out.println(Conta.getTotal());
 	}
