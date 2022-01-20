@@ -1,0 +1,43 @@
+!SESSION 2022-01-20 11:17:37.692 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Command-line arguments:  -data /home/rafael/Documentos/Alura/Formacoes-Alura/SQL Server -os linux -ws gtk -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-01-20 11:18:01.228
+!MESSAGE Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-01-20 11:18:01.228
+!MESSAGE Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
+!STACK 0
+com.microsoft.sqlserver.jdbc.SQLServerException: Falha de logon do usuário ''. ClientConnectionId:6a189631-1cd6-4c43-a6d6-e06c0d63b106
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:283)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:129)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:37)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:5332)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:4068)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:85)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:4006)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3274)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2768)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2418)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2265)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1291)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:881)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:184)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:203)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:100)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:59)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:111)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:99)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:91)
+	at org.jkiss.dbeaver.ext.mssql.model.SQLServerDataSource.<init>(SQLServerDataSource.java:73)
+	at org.jkiss.dbeaver.ext.mssql.SQLServerDataSourceProvider.openDataSource(SQLServerDataSourceProvider.java:129)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:898)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:70)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
