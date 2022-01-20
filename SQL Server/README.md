@@ -1,1 +1,0 @@
-Pasta voltada exclusivamente para aulas de SQL Server da Alura.
