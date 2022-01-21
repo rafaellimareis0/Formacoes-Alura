@@ -86,6 +86,6 @@ public class Conta { // classe 'Conta'
 		return titular;
 	}
 	public static int getTotal() {
-		return total;
+		return Conta.total;
 	}
 }
