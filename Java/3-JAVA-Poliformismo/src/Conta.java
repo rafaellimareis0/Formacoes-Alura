@@ -5,6 +5,7 @@ public class Conta { // classe 'Conta'
 	private int agencia; // atributo da classe 'Conta'
 	private int numero; // atributo da classe 'Conta'
 	private Cliente titular; // atributo da classe 'Conta'
+	public double saldo;
 	private static int total; //utiliza o static para mostrar que isso é da classe e não da conta especifica
 	
 	//esse é o construtor padrão da classe Conta
