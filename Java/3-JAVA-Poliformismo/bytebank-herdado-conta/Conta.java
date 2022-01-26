@@ -4,7 +4,7 @@ public class Conta { // classe 'Conta'
 	private double getSaldo; // atributo da classe 'Conta'
 	private int agencia; // atributo da classe 'Conta'
 	private int numero; // atributo da classe 'Conta'
-	private Cliente titular; // atributo da classe 'Conta'
+	private Clientes titular; // atributo da classe 'Conta'
 	public double saldo;
 	private static int total; //utiliza o static para mostrar que isso é da classe e não da conta especifica
 	
@@ -81,10 +81,10 @@ public class Conta { // classe 'Conta'
 		this.agencia = agencia;
 	}
 	
-	public void setTitular(Cliente titular) {
+	public void setTitular(Clientes titular) {
 		this.titular = titular;
 	}
-	public Cliente getTitular() {
+	public Clientes getTitular() {
 		return titular;
 	}
 	public static int getTotal() {
